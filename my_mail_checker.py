@@ -25,3 +25,8 @@ print "Total no of new emails: %s (%s bytes)" % email_information
 #Reading an email 
 print "\n\n==========>READING<===========\n\n"
 
+#Fetch the top mail
+latest_email = email_connection.retr(1)
+
+#print the message
+print latest_email[1]
