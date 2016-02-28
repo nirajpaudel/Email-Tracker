@@ -8,7 +8,29 @@ Currently you have to enter your emails
 In later versions this will be handled too :)
 
 
-
 The Module And Usage
 
 Python comes with a module poplib for accessing POP3 servers. This module also supports the Secure Socket Layer (SSL), so you can be assured that no one is evaedropping on your message or password.
+
+While running the program and if you are using Gmail as your email server 
+if you come across the following error:
+  Traceback (most recent call last):
+  File "my_mail_checker.py", line 18, in <module>
+    email_connection.pass_(email_pass)
+  File "/usr/lib/python2.7/poplib.py", line 197, in pass_
+    return self._shortcmd('PASS %s' % pswd)
+  File "/usr/lib/python2.7/poplib.py", line 160, in _shortcmd
+    return self._getresp()
+  File "/usr/lib/python2.7/poplib.py", line 136, in _getresp
+    raise error_proto(resp)
+  poplib.error_proto: -ERR [AUTH] Web login required: https://support.google.com/mail/answer/78754
+
+To resolve the above issue :
+  Go to https://www.google.com/settings/security/lesssecureapps
+  
+  Do Turn on Access for less secure apps.
+  
+  It might make your account vulnerable to attacks though.
+
+
+Please also go to he link: https://productforums.google.com/forum/#!topic/gmail/E25sxuI0Rtw
