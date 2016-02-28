@@ -6,3 +6,9 @@ Usage : just run the code
   
 Currently you have to enter your emails 
 In later versions this will be handled too :)
+
+
+
+The Module And Usage
+
+Python comes with a module poplib for accessing POP3 servers. This module also supports the Secure Socket Layer (SSL), so you can be assured that no one is evaedropping on your message or password.

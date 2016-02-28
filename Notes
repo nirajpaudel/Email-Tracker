@@ -1,0 +1,30 @@
+What is the difference between POP3 and IMAP?
+
+(Learn about the differences between POP and IMAP, and which one you should use to access your mail from your mobile device or third-party email client.)
+
+POP3 and IMAP are two different protocols (methods) used to access email.
+
+Of the two, IMAP is the better option - and the recommended option - when you need to check your emails from multiple devices, such as a work laptop, a home computer, or a tablet, smartphone, or other mobile device. Tap into your synced (updated) account from any device with IMAP.
+
+POP3 downloads email from a server to a single computer, then deletes it from the server. Because your messages get downloaded to a single computer or device and then deleted from the server, it can appear that mail is missing or disappearing from your Inbox if you try to check your mail from a different computer.
+
+To learn how to get your AOL Mail on your mobile device, please visit our help article AOL Mail: Mobile Mail.
+
+To learn how to access your mail through a third-party email client (like Outlook, Mac Mail, etc.) please visit our help article How do I access my mail through a third-party email client?
+
+Here are the differences between POP3 and IMAP.
+
+POP3 - Post Office Protocol	IMAP 
+You can use only one computer to check your email (no other devices)	
+Your mails are stored on the computer that you use	
+Sent mail is stored locally on your PC, not on a mail server	
+
+- Internet Messaging Access Protocol
+You can use multiple computers and devices to check your email
+Your mails are stored on the server
+Sent mail stays on the server so you can see it from any device.
+
+
+Post Office Protocal version 3 (POP3) is protocol of the TCP/IP stack's application layer, used to fetch email from remote mail servers. POP is one of the most used protocols for email retrieval, other one being IMAP. Virtually every email application, be it in the desktop or mobile supports the POP protocol. POP was succeeded by IMAP which has become the default protocol in many email clients.
+
+POP is way simpler than IMAP, so it is better suited for programs which need to access mails & process them, say a notifier, or check for specific mails process & delete them.
