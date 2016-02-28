@@ -26,3 +26,6 @@ To resolve the above issue :
   Do Turn on Access for less secure apps.
   
   It might make your account vulnerable to attacks though.
+
+
+Please also go to he link: https://productforums.google.com/forum/#!topic/gmail/E25sxuI0Rtw
